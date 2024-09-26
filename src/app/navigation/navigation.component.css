@@ -1,55 +1,7 @@
-/* Main toolbar styling */
-mat-toolbar {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 16px;
-    align-items: center;
-  }
-  
-  /* Flexbox spacer */
-  .spacer {
-    flex: 1 1 auto;
-  }
-  
-  /* Toolbar title */
-  .toolbar-title {
-    font-size: 24px;
-    font-weight: bold;
-    text-transform: uppercase;
-  }
-  
-  /* Navigation Links */
-  .nav-links a {
-    margin-right: 16px;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 500;
-  }
-  
-  .active-link {
-    border-bottom: 2px solid white; /* Underline active link */
-  }
-  
-  /* Hide overflowing links on smaller screens */
-  @media (max-width: 768px) {
-    mat-toolbar {
-      flex-wrap: wrap;
-    }
-  
-    .toolbar-title {
-      margin-bottom: 10px;
-    }
-  
-    .nav-links {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      margin-bottom: 10px;
-    }
-  
-    .nav-links a {
-      margin-right: 8px;
-      font-size: 12px;
-    }
-  }
-  
+.spacer {
+  flex: 1 1 auto;
+}
+a {
+  text-decoration: none;
+  color: white;
+}

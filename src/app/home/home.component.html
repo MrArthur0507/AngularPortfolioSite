@@ -1,51 +1,42 @@
-<div class="home-container">
+<div class="circle-container">
+    <img src="https://via.placeholder.com/150" alt="Circular Image" />
+</div>
 
-    <img src="assets/profile.jpg" alt="My Profile Image" class="profile-image">
-  
+<div class="cards-container">
 
-    <div class="description">
-      <h2>Bozhidar Penchev</h2>
-      <p>
-        Hi, I'm John, a passionate full-stack developer with expertise in Angular, Node.js, and cloud technologies.
-        I love building user-friendly web applications that solve real-world problems. Let's connect and create something amazing!
-      </p>
-    </div>
+    <mat-card class="card">
+      <mat-card-header>
+        <mat-card-title>About</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <p>Learn more about me.</p>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-button color="primary" routerLink="/about">Learn More</button>
+      </mat-card-actions>
+    </mat-card>
 
-    <div class="card-container">
-        <!-- About Card -->
-        <mat-card class="mat-card">
-          <mat-card-title>About Me</mat-card-title>
-          <mat-card-content>
-            <p>Learn more about my background, experience, and interests.</p>
-          </mat-card-content>
-          <mat-card-actions>
-            <a mat-button color="primary" routerLink="/about">Go to About</a>
-          </mat-card-actions>
-        </mat-card>
-    
-        <!-- Projects Card -->
-        <mat-card class="mat-card">
-          <mat-card-title>Projects</mat-card-title>
-          <mat-card-content>
-            <p>Check out the projects I've worked on, including web and mobile applications.</p>
-          </mat-card-content>
-          <mat-card-actions>
-            <a mat-button color="primary" routerLink="/projects">Go to Projects</a>
-          </mat-card-actions>
-        </mat-card>
-    
-        <!-- Skills Card -->
-        <mat-card class="mat-card">
-          <mat-card-title>Skills</mat-card-title>
-          <mat-card-content>
-            <p>Explore my technical skills, from frontend frameworks to backend technologies.</p>
-          </mat-card-content>
-          <mat-card-actions>
-            <a mat-button color="primary" routerLink="/skills">Go to Skills</a>
-          </mat-card-actions>
-        </mat-card>
-      </div>
+    <mat-card class="card">
+      <mat-card-header>
+        <mat-card-title>Projects</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <p>Explore my projects.</p>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-button color="primary" routerLink="/projects">View Projects</button>
+      </mat-card-actions>
+    </mat-card>
 
-
+    <mat-card class="card">
+      <mat-card-header>
+        <mat-card-title>Skills</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <p>Discover my skills.</p>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-button color="primary" routerLink="/skills">See Skills</button>
+      </mat-card-actions>
+    </mat-card>
   </div>
-  
